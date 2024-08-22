@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            height: 97vh;
+            background-image: url(imagens/wallpaper005.jpg);
+            background-position: center top;  
+            background-repeat: no-repeat;
+            background-image: cross-fade();
+        }
+        h1 {
+            text-align: center;
+            color: darkred;
+            padding: 10px;
+        }
+        header > p{
+            font-size: 1.3em;
+            text-align: center;
+            margin-left: 5px;
+        }
+        nav {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-image: linear-gradient(to right, rgba(219, 214, 214, 0.318)), transparent;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.382);
+            border-radius: 3px;
+            text-align: center;
+            
+        }
+        nav a {
+            font-size: 1.1em;
+            margin-left: 3px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            text-decoration: none;
+            color: red;
+            transition-duration: .5s;
+        }
+        nav a:hover {
+            color:black;
+            background-color: rgba(0, 0, 0, 0.145);   
+        }
+        main div {
+            background-image: url(imagens/pattern004.png);
+            width: 300px;
+            height: 400px;
+            
+            
+        }
+        main h2 {
+            text-align: center;
+            margin-right: 5px;
+        }
+        div {
+            padding-left: 0px;
+        }
+        div  p {
+            font-size: 0.9em;
+            margin: 15px 6px;
+            text-indent: 8px;
+            line-height: 1.2em;
+            color:blue;
+            font-weight: normal;
+            text-align: justify;
+            padding: 2px;
+        }
+        div.box {
+            float:inline-end;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+        div.q2 {
+            background-image: url(imagens/pattern003.png);
+            float: inline-start;
+            border-radius: 3px;
+            margin-top: 5px;
+            
+        
+        }
+        .q2 >p {
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+   <header>
+    <h1>
+        Meu Site
+    </h1>
+    <p>Aqui você vai aprender a posicionar imagens!</p>
+   </header>
+    <nav>
+    <a href="#" class="unico">Inicio</a>
+    </nav>
+    <main>
+        <div class="box">
+            <h2>Uma Imagem</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo in impedit eligendi consectetur recusandae odio vero ullam sint exercitationem alias et vitae, sunt voluptas dicta rerum a cupiditate maxime excepturi.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, accusantium. Deleniti architecto asperiores voluptas impedit distinctio illo quaerat animi, eos nostrum. Temporibus dignissimos suscipit numquam sapiente itaque dolores ab! Modi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam obcaecati fugit, maxime possimus exercitationem nemo excepturi aperiam dolorum animi autem, qui non accusantium. Atque, facere. Dicta ut magnam laborum dolorum?</p>
+            
+        </div>
+        <div class="q2">
+            <h2 >Outra</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsum eum architecto amet cumque, pariatur, odio inventore maxime labore consectetur, deserunt dolorum! Officia eius architecto reprehenderit quam, temporibus beatae unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo non illo reprehenderit asperiores laboriosam minus ipsum repudiandae? Adipisci quis blanditiis, iusto id minus dolorem porro. Nobis veritatis aperiam fugiat quod.</p>
+        </div>
+    </main>
+</body>
+</html>
