@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        thead {
+            
+            height:100px
+        }
+        thead, tfoot {
+            background-color: rgba(219, 211, 211, 0.997);
+            color: black;
+        }
+        td, th {
+            border: 1px solid rgb(2, 2, 2);
+            padding: 10px;
+        }
+        td.number {
+            text-align: right;
+            padding-left: 16px;
+        }
+        td.posiçao {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes !</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posiçao">1</td>
+                <td><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)">São Paulo</a></td>
+                <td class="number">45.973.190	</td>
+            </tr>
+            <tr>
+                <td class="posiçao">2</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Minas_Gerais">Minas Gerais</a></td>
+                <td class="number">21.322.692</td>
+            </tr>
+            <tr>
+                <td class="posiçao">3</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)">Rio de Janeiro</a></td>
+                <td class="number">17.219.679</td>
+            </tr>
+            <tr>
+                <td class="posiçao">4</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Bahia">Bahia</a></td>
+                <td class="number">14.850.513</td>
+            </tr>
+            <tr>
+                <td class="posiçao">5</td>
+                <td><a href="#">Paraná</a></td>
+                <td class="number">11.824.665</td>
+            </tr>
+            <tr>
+                <td class="posiçao">6</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Paran%C3%A1">Rio Grande do Sul</a></td>
+                <td class="number">11.229.915</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="number"><strong>122.420.554</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
