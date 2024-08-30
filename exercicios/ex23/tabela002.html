@@ -14,6 +14,7 @@
             font-family: 'Courier New', Courier, monospace;
         }
         table {
+            width: 600px;
             margin: auto;
             border-collapse: collapse;
         }
@@ -22,8 +23,8 @@
             height:100px
         }
         thead, tfoot {
-            background-color: rgba(219, 211, 211, 0.997);
-            color: black;
+            background-color: rgba(27, 27, 27, 0.997);
+            color: white;
         }
         td, th {
             border: 1px solid rgb(2, 2, 2);
@@ -43,16 +44,23 @@
             text-decoration: underline;
 
         }
+        caption {
+            background-color: gray;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de Tabelas Grandes !</h1>
     <table>
+        <caption>População da Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col" style="width: 50px;">Posição</th>
+                <th scope="col" style="width: 300px;">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -89,7 +97,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="number"><strong>122.420.554</strong></td>
             </tr>
         </tfoot>
