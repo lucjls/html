@@ -32,15 +32,13 @@
             background-color: rgba(27, 27, 27, 0.997);
             color: white;
         } 
-        tbody > tr:nth-child(even) {
-            background-color: red;
-        }
-        tbody > tr:nth-child(odd) {
-            background-color: lightgray;
-        }
+        
         td, th {
             border: 1px solid rgb(2, 2, 2);
             padding: 10px;
+        }
+        tbody >tr:nth-child(even) {
+            background-color: lightgray;
         }
         td.number {
             text-align: right;
@@ -109,7 +107,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th scope="row">Total de Habitantes</th>
+                <th>Total de Habitantes</th>
                 <td class="number" colspan="2"><strong>122.420.554</strong></td>
             </tr>
         </tfoot>
